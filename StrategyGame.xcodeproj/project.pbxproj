@@ -1,0 +1,305 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D397B6CD16975FA60017DAEC /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D397B6CC16975FA60017DAEC /* UIKit.framework */; };
+		D397B6CF16975FA60017DAEC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D397B6CE16975FA60017DAEC /* Foundation.framework */; };
+		D397B6D116975FA60017DAEC /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D397B6D016975FA60017DAEC /* CoreGraphics.framework */; };
+		D397B6D316975FA60017DAEC /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D397B6D216975FA60017DAEC /* CoreData.framework */; };
+		D397B6D916975FA60017DAEC /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D397B6D716975FA60017DAEC /* InfoPlist.strings */; };
+		D397B6DB16975FA60017DAEC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D397B6DA16975FA60017DAEC /* main.m */; };
+		D397B6DF16975FA60017DAEC /* ARAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D397B6DE16975FA60017DAEC /* ARAppDelegate.m */; };
+		D397B6E116975FA60017DAEC /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = D397B6E016975FA60017DAEC /* Default.png */; };
+		D397B6E316975FA60017DAEC /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D397B6E216975FA60017DAEC /* Default@2x.png */; };
+		D397B6E516975FA60017DAEC /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D397B6E416975FA60017DAEC /* Default-568h@2x.png */; };
+		D397B6E816975FA60017DAEC /* StrategyGame.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = D397B6E616975FA60017DAEC /* StrategyGame.xcdatamodeld */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		D397B6C816975FA60017DAEC /* StrategyGame.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StrategyGame.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D397B6CC16975FA60017DAEC /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		D397B6CE16975FA60017DAEC /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		D397B6D016975FA60017DAEC /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		D397B6D216975FA60017DAEC /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		D397B6D616975FA60017DAEC /* StrategyGame-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "StrategyGame-Info.plist"; sourceTree = "<group>"; };
+		D397B6D816975FA60017DAEC /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		D397B6DA16975FA60017DAEC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D397B6DC16975FA60017DAEC /* StrategyGame-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "StrategyGame-Prefix.pch"; sourceTree = "<group>"; };
+		D397B6DD16975FA60017DAEC /* ARAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ARAppDelegate.h; sourceTree = "<group>"; };
+		D397B6DE16975FA60017DAEC /* ARAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ARAppDelegate.m; sourceTree = "<group>"; };
+		D397B6E016975FA60017DAEC /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		D397B6E216975FA60017DAEC /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		D397B6E416975FA60017DAEC /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		D397B6E716975FA60017DAEC /* StrategyGame.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = StrategyGame.xcdatamodel; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D397B6C516975FA60017DAEC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D397B6CD16975FA60017DAEC /* UIKit.framework in Frameworks */,
+				D397B6CF16975FA60017DAEC /* Foundation.framework in Frameworks */,
+				D397B6D116975FA60017DAEC /* CoreGraphics.framework in Frameworks */,
+				D397B6D316975FA60017DAEC /* CoreData.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D397B6BD16975FA60017DAEC = {
+			isa = PBXGroup;
+			children = (
+				D397B6D416975FA60017DAEC /* StrategyGame */,
+				D397B6CB16975FA60017DAEC /* Frameworks */,
+				D397B6C916975FA60017DAEC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D397B6C916975FA60017DAEC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D397B6C816975FA60017DAEC /* StrategyGame.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D397B6CB16975FA60017DAEC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D397B6CC16975FA60017DAEC /* UIKit.framework */,
+				D397B6CE16975FA60017DAEC /* Foundation.framework */,
+				D397B6D016975FA60017DAEC /* CoreGraphics.framework */,
+				D397B6D216975FA60017DAEC /* CoreData.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D397B6D416975FA60017DAEC /* StrategyGame */ = {
+			isa = PBXGroup;
+			children = (
+				D397B6DD16975FA60017DAEC /* ARAppDelegate.h */,
+				D397B6DE16975FA60017DAEC /* ARAppDelegate.m */,
+				D397B6E616975FA60017DAEC /* StrategyGame.xcdatamodeld */,
+				D397B6D516975FA60017DAEC /* Supporting Files */,
+			);
+			path = StrategyGame;
+			sourceTree = "<group>";
+		};
+		D397B6D516975FA60017DAEC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D397B6D616975FA60017DAEC /* StrategyGame-Info.plist */,
+				D397B6D716975FA60017DAEC /* InfoPlist.strings */,
+				D397B6DA16975FA60017DAEC /* main.m */,
+				D397B6DC16975FA60017DAEC /* StrategyGame-Prefix.pch */,
+				D397B6E016975FA60017DAEC /* Default.png */,
+				D397B6E216975FA60017DAEC /* Default@2x.png */,
+				D397B6E416975FA60017DAEC /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D397B6C716975FA60017DAEC /* StrategyGame */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D397B6EB16975FA60017DAEC /* Build configuration list for PBXNativeTarget "StrategyGame" */;
+			buildPhases = (
+				D397B6C416975FA60017DAEC /* Sources */,
+				D397B6C516975FA60017DAEC /* Frameworks */,
+				D397B6C616975FA60017DAEC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = StrategyGame;
+			productName = StrategyGame;
+			productReference = D397B6C816975FA60017DAEC /* StrategyGame.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D397B6BF16975FA60017DAEC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = AR;
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = Artgine;
+			};
+			buildConfigurationList = D397B6C216975FA60017DAEC /* Build configuration list for PBXProject "StrategyGame" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = D397B6BD16975FA60017DAEC;
+			productRefGroup = D397B6C916975FA60017DAEC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D397B6C716975FA60017DAEC /* StrategyGame */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D397B6C616975FA60017DAEC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D397B6D916975FA60017DAEC /* InfoPlist.strings in Resources */,
+				D397B6E116975FA60017DAEC /* Default.png in Resources */,
+				D397B6E316975FA60017DAEC /* Default@2x.png in Resources */,
+				D397B6E516975FA60017DAEC /* Default-568h@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D397B6C416975FA60017DAEC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D397B6DB16975FA60017DAEC /* main.m in Sources */,
+				D397B6DF16975FA60017DAEC /* ARAppDelegate.m in Sources */,
+				D397B6E816975FA60017DAEC /* StrategyGame.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		D397B6D716975FA60017DAEC /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D397B6D816975FA60017DAEC /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D397B6E916975FA60017DAEC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D397B6EA16975FA60017DAEC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D397B6EC16975FA60017DAEC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "StrategyGame/StrategyGame-Prefix.pch";
+				INFOPLIST_FILE = "StrategyGame/StrategyGame-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		D397B6ED16975FA60017DAEC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "StrategyGame/StrategyGame-Prefix.pch";
+				INFOPLIST_FILE = "StrategyGame/StrategyGame-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D397B6C216975FA60017DAEC /* Build configuration list for PBXProject "StrategyGame" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D397B6E916975FA60017DAEC /* Debug */,
+				D397B6EA16975FA60017DAEC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D397B6EB16975FA60017DAEC /* Build configuration list for PBXNativeTarget "StrategyGame" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D397B6EC16975FA60017DAEC /* Debug */,
+				D397B6ED16975FA60017DAEC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		D397B6E616975FA60017DAEC /* StrategyGame.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				D397B6E716975FA60017DAEC /* StrategyGame.xcdatamodel */,
+			);
+			currentVersion = D397B6E716975FA60017DAEC /* StrategyGame.xcdatamodel */;
+			path = StrategyGame.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = D397B6BF16975FA60017DAEC /* Project object */;
+}
