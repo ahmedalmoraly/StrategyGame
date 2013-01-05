@@ -7,6 +7,7 @@
 //
 
 #import "ARAppDelegate.h"
+#import "ARGameViewController.h"
 
 @implementation ARAppDelegate
 
@@ -14,10 +15,24 @@
 @synthesize managedObjectModel = _managedObjectModel;
 @synthesize persistentStoreCoordinator = _persistentStoreCoordinator;
 
+-(NSUInteger)supportedInterfaceOrientations
+{
+    return UIInterfaceOrientationMaskLandscape;
+}
+
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     // Override point for customization after application launch.
+    self.viewController = [[ARGameViewController alloc] initWithNibName:@"ARGameViewController" bundle:nil];
+//    UINavigationController *navigation = [[UINavigationController alloc] initWithRootViewController:self.viewController];
+//    [navigation setNavigationBarHidden:YES];
+//    int64_t delayInSeconds = 3.0;
+//    dispatch_time_t popTime = dispatch_time(DISPATCH_TIME_NOW, delayInSeconds * NSEC_PER_SEC);
+//    dispatch_after(popTime, dispatch_get_main_queue(), ^(void){
+//        [(ARGameViewController *)self.viewController pushViewController:[ARGameViewController new] animated:NO];
+//    });
+    self.window.rootViewController = self.viewController;
     self.window.backgroundColor = [UIColor whiteColor];
     [self.window makeKeyAndVisible];
     return YES;
