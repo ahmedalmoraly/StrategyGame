@@ -1,0 +1,10 @@
+
+*.xcscheme
+
+*.xcuserstate
+
+*.xcworkspacedata
+
+*.xcbkptlist
+
+StrategyGame.xcodeproj/xcuserdata/ahmadal-moraly.xcuserdatad/xcschemes/xcschememanagement.plist
