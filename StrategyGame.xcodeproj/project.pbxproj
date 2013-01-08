@@ -41,7 +41,7 @@
 		D397B7E0169761A20017DAEC /* enterWar_btn.png in Resources */ = {isa = PBXBuildFile; fileRef = D397B6FE169761A20017DAEC /* enterWar_btn.png */; };
 		D397B7E1169761A20017DAEC /* forgetPW_btn.png in Resources */ = {isa = PBXBuildFile; fileRef = D397B700169761A20017DAEC /* forgetPW_btn.png */; };
 		D397B7E2169761A20017DAEC /* newPlayer_btn.png in Resources */ = {isa = PBXBuildFile; fileRef = D397B702169761A20017DAEC /* newPlayer_btn.png */; };
-		D397B7E3169761A20017DAEC /* password_txt.png in Resources */ = {isa = PBXBuildFile; fileRef = D397B704169761A20017DAEC /* password_txt.png */; };
+		D397B7E3169761A20017DAEC /* Password_txt.png in Resources */ = {isa = PBXBuildFile; fileRef = D397B704169761A20017DAEC /* Password_txt.png */; };
 		D397B7E4169761A20017DAEC /* Players_Name_txt.png in Resources */ = {isa = PBXBuildFile; fileRef = D397B706169761A20017DAEC /* Players_Name_txt.png */; };
 		D397B7E5169761A20017DAEC /* body.png in Resources */ = {isa = PBXBuildFile; fileRef = D397B708169761A20017DAEC /* body.png */; };
 		D397B7E6169761A20017DAEC /* Password_txt.png in Resources */ = {isa = PBXBuildFile; fileRef = D397B70C169761A20017DAEC /* Password_txt.png */; };
@@ -61,19 +61,7 @@
 		D397B7F6169761A20017DAEC /* ar_News_btn.png in Resources */ = {isa = PBXBuildFile; fileRef = D397B720169761A20017DAEC /* ar_News_btn.png */; };
 		D397B7F8169761A20017DAEC /* ar_Shopping_btn.png in Resources */ = {isa = PBXBuildFile; fileRef = D397B722169761A20017DAEC /* ar_Shopping_btn.png */; };
 		D397B7F9169761A20017DAEC /* ar_technologies_btn.png in Resources */ = {isa = PBXBuildFile; fileRef = D397B723169761A20017DAEC /* ar_technologies_btn.png */; };
-		D397B7FA169761A20017DAEC /* en_Alliances1.png in Resources */ = {isa = PBXBuildFile; fileRef = D397B725169761A20017DAEC /* en_Alliances1.png */; };
-		D397B7FB169761A20017DAEC /* en_Army1.png in Resources */ = {isa = PBXBuildFile; fileRef = D397B726169761A20017DAEC /* en_Army1.png */; };
-		D397B7FC169761A20017DAEC /* en_castles.png in Resources */ = {isa = PBXBuildFile; fileRef = D397B727169761A20017DAEC /* en_castles.png */; };
-		D397B7FD169761A20017DAEC /* en_forum.png in Resources */ = {isa = PBXBuildFile; fileRef = D397B728169761A20017DAEC /* en_forum.png */; };
-		D397B7FE169761A20017DAEC /* en_hallofspy.png in Resources */ = {isa = PBXBuildFile; fileRef = D397B729169761A20017DAEC /* en_hallofspy.png */; };
-		D397B7FF169761A20017DAEC /* en_hallofwar.png in Resources */ = {isa = PBXBuildFile; fileRef = D397B72A169761A20017DAEC /* en_hallofwar.png */; };
-		D397B800169761A20017DAEC /* en_Knight_Skills.png in Resources */ = {isa = PBXBuildFile; fileRef = D397B72B169761A20017DAEC /* en_Knight_Skills.png */; };
-		D397B801169761A20017DAEC /* en_Map.png in Resources */ = {isa = PBXBuildFile; fileRef = D397B72C169761A20017DAEC /* en_Map.png */; };
-		D397B802169761A20017DAEC /* en_Members.png in Resources */ = {isa = PBXBuildFile; fileRef = D397B72D169761A20017DAEC /* en_Members.png */; };
-		D397B804169761A20017DAEC /* en_messages.png in Resources */ = {isa = PBXBuildFile; fileRef = D397B72F169761A20017DAEC /* en_messages.png */; };
-		D397B806169761A20017DAEC /* en_News.png in Resources */ = {isa = PBXBuildFile; fileRef = D397B731169761A20017DAEC /* en_News.png */; };
-		D397B808169761A20017DAEC /* en_Shopping.png in Resources */ = {isa = PBXBuildFile; fileRef = D397B733169761A20017DAEC /* en_Shopping.png */; };
-		D397B809169761A20017DAEC /* en_technologies.png in Resources */ = {isa = PBXBuildFile; fileRef = D397B734169761A20017DAEC /* en_technologies.png */; };
+		D397B7FB169761A20017DAEC /* menu_Army1.png in Resources */ = {isa = PBXBuildFile; fileRef = D397B726169761A20017DAEC /* menu_Army1.png */; };
 		D397B830169761A20017DAEC /* delet_btn.png in Resources */ = {isa = PBXBuildFile; fileRef = D397B75F169761A20017DAEC /* delet_btn.png */; };
 		D397B831169761A20017DAEC /* message_BG.png in Resources */ = {isa = PBXBuildFile; fileRef = D397B760169761A20017DAEC /* message_BG.png */; };
 		D397B832169761A20017DAEC /* message_defaultImg.png in Resources */ = {isa = PBXBuildFile; fileRef = D397B761169761A20017DAEC /* message_defaultImg.png */; };
@@ -138,10 +126,26 @@
 		D397B88116985FFA0017DAEC /* ARGameViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D397B87F16985FFA0017DAEC /* ARGameViewController.m */; };
 		D397B88216985FFA0017DAEC /* ARGameViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D397B88016985FFA0017DAEC /* ARGameViewController.xib */; };
 		D397B88F169871230017DAEC /* ARGameMenuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D397B88D169871230017DAEC /* ARGameMenuViewController.m */; };
-		D397B890169871230017DAEC /* ARGameMenuViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D397B88E169871230017DAEC /* ARGameMenuViewController.xib */; };
+		D3D01EDA169B690A00B46E8A /* ARGameMenuViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D3D01EDC169B690A00B46E8A /* ARGameMenuViewController.xib */; };
+		D3D01EDF169B6C8900B46E8A /* menu_Alliances1.png in Resources */ = {isa = PBXBuildFile; fileRef = D3D01EE1169B6C8900B46E8A /* menu_Alliances1.png */; };
+		D3F9B43B169B6CF7008E61E0 /* menu_castles.png in Resources */ = {isa = PBXBuildFile; fileRef = D3F9B43D169B6CF7008E61E0 /* menu_castles.png */; };
+		D3F9B440169B6D01008E61E0 /* menu_forum.png in Resources */ = {isa = PBXBuildFile; fileRef = D3F9B442169B6D01008E61E0 /* menu_forum.png */; };
+		D3F9B444169B6D09008E61E0 /* menu_hallofspy.png in Resources */ = {isa = PBXBuildFile; fileRef = D3F9B446169B6D09008E61E0 /* menu_hallofspy.png */; };
+		D3F9B448169B6D12008E61E0 /* menu_hallofwar.png in Resources */ = {isa = PBXBuildFile; fileRef = D3F9B44A169B6D12008E61E0 /* menu_hallofwar.png */; };
+		D3F9B44C169B6D1C008E61E0 /* menu_Knight_Skills.png in Resources */ = {isa = PBXBuildFile; fileRef = D3F9B44E169B6D1C008E61E0 /* menu_Knight_Skills.png */; };
+		D3F9B450169B6D25008E61E0 /* menu_Map.png in Resources */ = {isa = PBXBuildFile; fileRef = D3F9B452169B6D25008E61E0 /* menu_Map.png */; };
+		D3F9B454169B6D2D008E61E0 /* menu_Members.png in Resources */ = {isa = PBXBuildFile; fileRef = D3F9B456169B6D2D008E61E0 /* menu_Members.png */; };
+		D3F9B458169B6D39008E61E0 /* menu_messages.png in Resources */ = {isa = PBXBuildFile; fileRef = D3F9B45A169B6D39008E61E0 /* menu_messages.png */; };
+		D3F9B45B169B6D3D008E61E0 /* menu_News.png in Resources */ = {isa = PBXBuildFile; fileRef = D3F9B45D169B6D3D008E61E0 /* menu_News.png */; };
+		D3F9B45E169B6D41008E61E0 /* menu_Shopping.png in Resources */ = {isa = PBXBuildFile; fileRef = D3F9B460169B6D41008E61E0 /* menu_Shopping.png */; };
+		D3F9B461169B6D45008E61E0 /* menu_technologies.png in Resources */ = {isa = PBXBuildFile; fileRef = D3F9B463169B6D45008E61E0 /* menu_technologies.png */; };
+		D3F9B46C169B7863008E61E0 /* GameMenuStrings.strings in Resources */ = {isa = PBXBuildFile; fileRef = D3F9B46E169B7863008E61E0 /* GameMenuStrings.strings */; };
+		D3F9B473169B79F3008E61E0 /* ARLoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D3F9B471169B79EF008E61E0 /* ARLoginViewController.m */; };
+		D3F9B476169B7C5C008E61E0 /* ARLoginViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D3F9B478169B7C5C008E61E0 /* ARLoginViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		D33A78C2169CD11C0005C468 /* en */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = en; path = en.lproj/password_txt.png; sourceTree = "<group>"; };
 		D38A9F321698D61100121099 /* LeftMessageViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LeftMessageViewCell.xib; sourceTree = "<group>"; };
 		D38A9F331698D61100121099 /* MessagesCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MessagesCell.h; sourceTree = "<group>"; };
 		D38A9F341698D61100121099 /* MessagesCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MessagesCell.m; sourceTree = "<group>"; };
@@ -208,19 +212,7 @@
 		D397B720169761A20017DAEC /* ar_News_btn.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ar_News_btn.png; sourceTree = "<group>"; };
 		D397B722169761A20017DAEC /* ar_Shopping_btn.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ar_Shopping_btn.png; sourceTree = "<group>"; };
 		D397B723169761A20017DAEC /* ar_technologies_btn.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ar_technologies_btn.png; sourceTree = "<group>"; };
-		D397B725169761A20017DAEC /* en_Alliances1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = en_Alliances1.png; sourceTree = "<group>"; };
-		D397B726169761A20017DAEC /* en_Army1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = en_Army1.png; sourceTree = "<group>"; };
-		D397B727169761A20017DAEC /* en_castles.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = en_castles.png; sourceTree = "<group>"; };
-		D397B728169761A20017DAEC /* en_forum.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = en_forum.png; sourceTree = "<group>"; };
-		D397B729169761A20017DAEC /* en_hallofspy.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = en_hallofspy.png; sourceTree = "<group>"; };
-		D397B72A169761A20017DAEC /* en_hallofwar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = en_hallofwar.png; sourceTree = "<group>"; };
-		D397B72B169761A20017DAEC /* en_Knight_Skills.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = en_Knight_Skills.png; sourceTree = "<group>"; };
-		D397B72C169761A20017DAEC /* en_Map.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = en_Map.png; sourceTree = "<group>"; };
-		D397B72D169761A20017DAEC /* en_Members.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = en_Members.png; sourceTree = "<group>"; };
-		D397B72F169761A20017DAEC /* en_messages.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = en_messages.png; sourceTree = "<group>"; };
-		D397B731169761A20017DAEC /* en_News.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = en_News.png; sourceTree = "<group>"; };
-		D397B733169761A20017DAEC /* en_Shopping.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = en_Shopping.png; sourceTree = "<group>"; };
-		D397B734169761A20017DAEC /* en_technologies.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = en_technologies.png; sourceTree = "<group>"; };
+		D397B726169761A20017DAEC /* menu_Army1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = menu_Army1.png; sourceTree = "<group>"; };
 		D397B75F169761A20017DAEC /* delet_btn.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = delet_btn.png; sourceTree = "<group>"; };
 		D397B760169761A20017DAEC /* message_BG.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = message_BG.png; sourceTree = "<group>"; };
 		D397B761169761A20017DAEC /* message_defaultImg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = message_defaultImg.png; sourceTree = "<group>"; };
@@ -314,7 +306,38 @@
 		D397B88016985FFA0017DAEC /* ARGameViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = ARGameViewController.xib; path = MainViewController/ARGameViewController.xib; sourceTree = "<group>"; };
 		D397B88C169871230017DAEC /* ARGameMenuViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ARGameMenuViewController.h; path = GameMenu/ARGameMenuViewController.h; sourceTree = "<group>"; };
 		D397B88D169871230017DAEC /* ARGameMenuViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ARGameMenuViewController.m; path = GameMenu/ARGameMenuViewController.m; sourceTree = "<group>"; };
-		D397B88E169871230017DAEC /* ARGameMenuViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = ARGameMenuViewController.xib; path = GameMenu/ARGameMenuViewController.xib; sourceTree = "<group>"; };
+		D3D01EDB169B690A00B46E8A /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ARGameMenuViewController.xib; sourceTree = "<group>"; };
+		D3D01EE0169B6C8900B46E8A /* en */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = en; path = en.lproj/menu_Alliances1.png; sourceTree = "<group>"; };
+		D3D01EE2169B6C9100B46E8A /* ar */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ar; path = ar.lproj/menu_Alliances1.png; sourceTree = "<group>"; };
+		D3F9B43C169B6CF7008E61E0 /* en */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = en; path = en.lproj/menu_castles.png; sourceTree = "<group>"; };
+		D3F9B43F169B6CFC008E61E0 /* ar */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ar; path = ar.lproj/menu_castles.png; sourceTree = "<group>"; };
+		D3F9B441169B6D01008E61E0 /* en */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = en; path = en.lproj/menu_forum.png; sourceTree = "<group>"; };
+		D3F9B443169B6D04008E61E0 /* ar */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ar; path = ar.lproj/menu_forum.png; sourceTree = "<group>"; };
+		D3F9B445169B6D09008E61E0 /* en */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = en; path = en.lproj/menu_hallofspy.png; sourceTree = "<group>"; };
+		D3F9B447169B6D0C008E61E0 /* ar */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ar; path = ar.lproj/menu_hallofspy.png; sourceTree = "<group>"; };
+		D3F9B449169B6D12008E61E0 /* en */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = en; path = en.lproj/menu_hallofwar.png; sourceTree = "<group>"; };
+		D3F9B44B169B6D15008E61E0 /* ar */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ar; path = ar.lproj/menu_hallofwar.png; sourceTree = "<group>"; };
+		D3F9B44D169B6D1C008E61E0 /* en */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = en; path = en.lproj/menu_Knight_Skills.png; sourceTree = "<group>"; };
+		D3F9B44F169B6D1F008E61E0 /* ar */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ar; path = ar.lproj/menu_Knight_Skills.png; sourceTree = "<group>"; };
+		D3F9B451169B6D25008E61E0 /* en */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = en; path = en.lproj/menu_Map.png; sourceTree = "<group>"; };
+		D3F9B453169B6D28008E61E0 /* ar */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ar; path = ar.lproj/menu_Map.png; sourceTree = "<group>"; };
+		D3F9B455169B6D2D008E61E0 /* en */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = en; path = en.lproj/menu_Members.png; sourceTree = "<group>"; };
+		D3F9B457169B6D34008E61E0 /* ar */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ar; path = ar.lproj/menu_Members.png; sourceTree = "<group>"; };
+		D3F9B459169B6D39008E61E0 /* en */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = en; path = en.lproj/menu_messages.png; sourceTree = "<group>"; };
+		D3F9B45C169B6D3D008E61E0 /* en */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = en; path = en.lproj/menu_News.png; sourceTree = "<group>"; };
+		D3F9B45F169B6D41008E61E0 /* en */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = en; path = en.lproj/menu_Shopping.png; sourceTree = "<group>"; };
+		D3F9B462169B6D45008E61E0 /* en */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = en; path = en.lproj/menu_technologies.png; sourceTree = "<group>"; };
+		D3F9B464169B6D49008E61E0 /* ar */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ar; path = ar.lproj/menu_messages.png; sourceTree = "<group>"; };
+		D3F9B465169B6D4F008E61E0 /* ar */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ar; path = ar.lproj/menu_News.png; sourceTree = "<group>"; };
+		D3F9B466169B6D52008E61E0 /* ar */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ar; path = ar.lproj/menu_Shopping.png; sourceTree = "<group>"; };
+		D3F9B467169B6D55008E61E0 /* ar */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ar; path = ar.lproj/menu_technologies.png; sourceTree = "<group>"; };
+		D3F9B468169B6F92008E61E0 /* ar */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = ar; path = ar.lproj/ARGameMenuViewController.xib; sourceTree = "<group>"; };
+		D3F9B46D169B7863008E61E0 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/GameMenuStrings.strings; sourceTree = "<group>"; };
+		D3F9B46F169B786C008E61E0 /* ar */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ar; path = ar.lproj/GameMenuStrings.strings; sourceTree = "<group>"; };
+		D3F9B470169B79ED008E61E0 /* ARLoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ARLoginViewController.h; sourceTree = "<group>"; };
+		D3F9B471169B79EF008E61E0 /* ARLoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ARLoginViewController.m; sourceTree = "<group>"; };
+		D3F9B477169B7C5C008E61E0 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ARLoginViewController.xib; sourceTree = "<group>"; };
+		D3F9B479169B7C62008E61E0 /* ar */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = ar; path = ar.lproj/ARLoginViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -389,6 +412,7 @@
 		D397B6D416975FA60017DAEC /* StrategyGame */ = {
 			isa = PBXGroup;
 			children = (
+				D3F9B475169B7A08008E61E0 /* Login */,
 				D38A9F311698D61100121099 /* Messages */,
 				D397B88B169870DB0017DAEC /* GameMenu */,
 				D397B87D16985FA10017DAEC /* MainViewController */,
@@ -473,7 +497,7 @@
 				D397B6FE169761A20017DAEC /* enterWar_btn.png */,
 				D397B700169761A20017DAEC /* forgetPW_btn.png */,
 				D397B702169761A20017DAEC /* newPlayer_btn.png */,
-				D397B704169761A20017DAEC /* password_txt.png */,
+				D397B704169761A20017DAEC /* Password_txt.png */,
 				D397B706169761A20017DAEC /* Players_Name_txt.png */,
 				D397B708169761A20017DAEC /* body.png */,
 				D397B70C169761A20017DAEC /* Password_txt.png */,
@@ -516,19 +540,19 @@
 		D397B724169761A20017DAEC /* English */ = {
 			isa = PBXGroup;
 			children = (
-				D397B725169761A20017DAEC /* en_Alliances1.png */,
-				D397B726169761A20017DAEC /* en_Army1.png */,
-				D397B727169761A20017DAEC /* en_castles.png */,
-				D397B728169761A20017DAEC /* en_forum.png */,
-				D397B729169761A20017DAEC /* en_hallofspy.png */,
-				D397B72A169761A20017DAEC /* en_hallofwar.png */,
-				D397B72B169761A20017DAEC /* en_Knight_Skills.png */,
-				D397B72C169761A20017DAEC /* en_Map.png */,
-				D397B72D169761A20017DAEC /* en_Members.png */,
-				D397B72F169761A20017DAEC /* en_messages.png */,
-				D397B731169761A20017DAEC /* en_News.png */,
-				D397B733169761A20017DAEC /* en_Shopping.png */,
-				D397B734169761A20017DAEC /* en_technologies.png */,
+				D3D01EE1169B6C8900B46E8A /* menu_Alliances1.png */,
+				D397B726169761A20017DAEC /* menu_Army1.png */,
+				D3F9B43D169B6CF7008E61E0 /* menu_castles.png */,
+				D3F9B442169B6D01008E61E0 /* menu_forum.png */,
+				D3F9B446169B6D09008E61E0 /* menu_hallofspy.png */,
+				D3F9B44A169B6D12008E61E0 /* menu_hallofwar.png */,
+				D3F9B44E169B6D1C008E61E0 /* menu_Knight_Skills.png */,
+				D3F9B452169B6D25008E61E0 /* menu_Map.png */,
+				D3F9B456169B6D2D008E61E0 /* menu_Members.png */,
+				D3F9B45A169B6D39008E61E0 /* menu_messages.png */,
+				D3F9B45D169B6D3D008E61E0 /* menu_News.png */,
+				D3F9B460169B6D41008E61E0 /* menu_Shopping.png */,
+				D3F9B463169B6D45008E61E0 /* menu_technologies.png */,
 			);
 			path = English;
 			sourceTree = "<group>";
@@ -784,9 +808,21 @@
 			children = (
 				D397B88C169871230017DAEC /* ARGameMenuViewController.h */,
 				D397B88D169871230017DAEC /* ARGameMenuViewController.m */,
-				D397B88E169871230017DAEC /* ARGameMenuViewController.xib */,
+				D3D01EDC169B690A00B46E8A /* ARGameMenuViewController.xib */,
+				D3F9B46E169B7863008E61E0 /* GameMenuStrings.strings */,
 			);
 			name = GameMenu;
+			sourceTree = "<group>";
+		};
+		D3F9B475169B7A08008E61E0 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				D3F9B470169B79ED008E61E0 /* ARLoginViewController.h */,
+				D3F9B471169B79EF008E61E0 /* ARLoginViewController.m */,
+				D3F9B478169B7C5C008E61E0 /* ARLoginViewController.xib */,
+			);
+			name = Login;
+			path = LoginViewController;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -860,7 +896,7 @@
 				D397B7E0169761A20017DAEC /* enterWar_btn.png in Resources */,
 				D397B7E1169761A20017DAEC /* forgetPW_btn.png in Resources */,
 				D397B7E2169761A20017DAEC /* newPlayer_btn.png in Resources */,
-				D397B7E3169761A20017DAEC /* password_txt.png in Resources */,
+				D397B7E3169761A20017DAEC /* Password_txt.png in Resources */,
 				D397B7E4169761A20017DAEC /* Players_Name_txt.png in Resources */,
 				D397B7E5169761A20017DAEC /* body.png in Resources */,
 				D397B7E6169761A20017DAEC /* Password_txt.png in Resources */,
@@ -880,19 +916,19 @@
 				D397B7F6169761A20017DAEC /* ar_News_btn.png in Resources */,
 				D397B7F8169761A20017DAEC /* ar_Shopping_btn.png in Resources */,
 				D397B7F9169761A20017DAEC /* ar_technologies_btn.png in Resources */,
-				D397B7FA169761A20017DAEC /* en_Alliances1.png in Resources */,
-				D397B7FB169761A20017DAEC /* en_Army1.png in Resources */,
-				D397B7FC169761A20017DAEC /* en_castles.png in Resources */,
-				D397B7FD169761A20017DAEC /* en_forum.png in Resources */,
-				D397B7FE169761A20017DAEC /* en_hallofspy.png in Resources */,
-				D397B7FF169761A20017DAEC /* en_hallofwar.png in Resources */,
-				D397B800169761A20017DAEC /* en_Knight_Skills.png in Resources */,
-				D397B801169761A20017DAEC /* en_Map.png in Resources */,
-				D397B802169761A20017DAEC /* en_Members.png in Resources */,
-				D397B804169761A20017DAEC /* en_messages.png in Resources */,
-				D397B806169761A20017DAEC /* en_News.png in Resources */,
-				D397B808169761A20017DAEC /* en_Shopping.png in Resources */,
-				D397B809169761A20017DAEC /* en_technologies.png in Resources */,
+				D3D01EDF169B6C8900B46E8A /* menu_Alliances1.png in Resources */,
+				D397B7FB169761A20017DAEC /* menu_Army1.png in Resources */,
+				D3F9B43B169B6CF7008E61E0 /* menu_castles.png in Resources */,
+				D3F9B440169B6D01008E61E0 /* menu_forum.png in Resources */,
+				D3F9B444169B6D09008E61E0 /* menu_hallofspy.png in Resources */,
+				D3F9B448169B6D12008E61E0 /* menu_hallofwar.png in Resources */,
+				D3F9B44C169B6D1C008E61E0 /* menu_Knight_Skills.png in Resources */,
+				D3F9B450169B6D25008E61E0 /* menu_Map.png in Resources */,
+				D3F9B454169B6D2D008E61E0 /* menu_Members.png in Resources */,
+				D3F9B458169B6D39008E61E0 /* menu_messages.png in Resources */,
+				D3F9B45B169B6D3D008E61E0 /* menu_News.png in Resources */,
+				D3F9B45E169B6D41008E61E0 /* menu_Shopping.png in Resources */,
+				D3F9B461169B6D45008E61E0 /* menu_technologies.png in Resources */,
 				D397B830169761A20017DAEC /* delet_btn.png in Resources */,
 				D397B831169761A20017DAEC /* message_BG.png in Resources */,
 				D397B832169761A20017DAEC /* message_defaultImg.png in Resources */,
@@ -931,12 +967,14 @@
 				D397B862169761A20017DAEC /* requestAccess.php in Resources */,
 				D397B863169761A20017DAEC /* verifyProduct.php in Resources */,
 				D397B88216985FFA0017DAEC /* ARGameViewController.xib in Resources */,
-				D397B890169871230017DAEC /* ARGameMenuViewController.xib in Resources */,
+				D3D01EDA169B690A00B46E8A /* ARGameMenuViewController.xib in Resources */,
 				D38A9F3F1698D61100121099 /* LeftMessageViewCell.xib in Resources */,
 				D38A9F411698D61100121099 /* MessagesCell.xib in Resources */,
 				D38A9F431698D61100121099 /* MessagesViewController.xib in Resources */,
 				D38A9F461698D61100121099 /* MessageViewController.xib in Resources */,
 				D38A9F471698D61100121099 /* RightMessageViewCell.xib in Resources */,
+				D3F9B46C169B7863008E61E0 /* GameMenuStrings.strings in Resources */,
+				D3F9B476169B7C5C008E61E0 /* ARLoginViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -977,6 +1015,7 @@
 				D38A9F421698D61100121099 /* MessagesViewController.m in Sources */,
 				D38A9F441698D61100121099 /* MessageViewCell.m in Sources */,
 				D38A9F451698D61100121099 /* MessageViewController.m in Sources */,
+				D3F9B473169B79F3008E61E0 /* ARLoginViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1018,12 +1057,13 @@
 			name = newPlayer_btn.png;
 			sourceTree = "<group>";
 		};
-		D397B704169761A20017DAEC /* password_txt.png */ = {
+		D397B704169761A20017DAEC /* Password_txt.png */ = {
 			isa = PBXVariantGroup;
 			children = (
 				D397B705169761A20017DAEC /* ar */,
+				D33A78C2169CD11C0005C468 /* en */,
 			);
-			name = password_txt.png;
+			name = Password_txt.png;
 			sourceTree = "<group>";
 		};
 		D397B706169761A20017DAEC /* Players_Name_txt.png */ = {
@@ -1059,6 +1099,143 @@
 				D397B77F169761A20017DAEC /* en */,
 			);
 			name = technology_title.png;
+			sourceTree = "<group>";
+		};
+		D3D01EDC169B690A00B46E8A /* ARGameMenuViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D3D01EDB169B690A00B46E8A /* en */,
+				D3F9B468169B6F92008E61E0 /* ar */,
+			);
+			name = ARGameMenuViewController.xib;
+			path = GameMenu;
+			sourceTree = "<group>";
+		};
+		D3D01EE1169B6C8900B46E8A /* menu_Alliances1.png */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D3D01EE0169B6C8900B46E8A /* en */,
+				D3D01EE2169B6C9100B46E8A /* ar */,
+			);
+			name = menu_Alliances1.png;
+			sourceTree = "<group>";
+		};
+		D3F9B43D169B6CF7008E61E0 /* menu_castles.png */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D3F9B43C169B6CF7008E61E0 /* en */,
+				D3F9B43F169B6CFC008E61E0 /* ar */,
+			);
+			name = menu_castles.png;
+			sourceTree = "<group>";
+		};
+		D3F9B442169B6D01008E61E0 /* menu_forum.png */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D3F9B441169B6D01008E61E0 /* en */,
+				D3F9B443169B6D04008E61E0 /* ar */,
+			);
+			name = menu_forum.png;
+			sourceTree = "<group>";
+		};
+		D3F9B446169B6D09008E61E0 /* menu_hallofspy.png */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D3F9B445169B6D09008E61E0 /* en */,
+				D3F9B447169B6D0C008E61E0 /* ar */,
+			);
+			name = menu_hallofspy.png;
+			sourceTree = "<group>";
+		};
+		D3F9B44A169B6D12008E61E0 /* menu_hallofwar.png */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D3F9B449169B6D12008E61E0 /* en */,
+				D3F9B44B169B6D15008E61E0 /* ar */,
+			);
+			name = menu_hallofwar.png;
+			sourceTree = "<group>";
+		};
+		D3F9B44E169B6D1C008E61E0 /* menu_Knight_Skills.png */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D3F9B44D169B6D1C008E61E0 /* en */,
+				D3F9B44F169B6D1F008E61E0 /* ar */,
+			);
+			name = menu_Knight_Skills.png;
+			sourceTree = "<group>";
+		};
+		D3F9B452169B6D25008E61E0 /* menu_Map.png */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D3F9B451169B6D25008E61E0 /* en */,
+				D3F9B453169B6D28008E61E0 /* ar */,
+			);
+			name = menu_Map.png;
+			sourceTree = "<group>";
+		};
+		D3F9B456169B6D2D008E61E0 /* menu_Members.png */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D3F9B455169B6D2D008E61E0 /* en */,
+				D3F9B457169B6D34008E61E0 /* ar */,
+			);
+			name = menu_Members.png;
+			sourceTree = "<group>";
+		};
+		D3F9B45A169B6D39008E61E0 /* menu_messages.png */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D3F9B459169B6D39008E61E0 /* en */,
+				D3F9B464169B6D49008E61E0 /* ar */,
+			);
+			name = menu_messages.png;
+			sourceTree = "<group>";
+		};
+		D3F9B45D169B6D3D008E61E0 /* menu_News.png */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D3F9B45C169B6D3D008E61E0 /* en */,
+				D3F9B465169B6D4F008E61E0 /* ar */,
+			);
+			name = menu_News.png;
+			sourceTree = "<group>";
+		};
+		D3F9B460169B6D41008E61E0 /* menu_Shopping.png */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D3F9B45F169B6D41008E61E0 /* en */,
+				D3F9B466169B6D52008E61E0 /* ar */,
+			);
+			name = menu_Shopping.png;
+			sourceTree = "<group>";
+		};
+		D3F9B463169B6D45008E61E0 /* menu_technologies.png */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D3F9B462169B6D45008E61E0 /* en */,
+				D3F9B467169B6D55008E61E0 /* ar */,
+			);
+			name = menu_technologies.png;
+			sourceTree = "<group>";
+		};
+		D3F9B46E169B7863008E61E0 /* GameMenuStrings.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D3F9B46D169B7863008E61E0 /* en */,
+				D3F9B46F169B786C008E61E0 /* ar */,
+			);
+			name = GameMenuStrings.strings;
+			path = GameMenu;
+			sourceTree = "<group>";
+		};
+		D3F9B478169B7C5C008E61E0 /* ARLoginViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D3F9B477169B7C5C008E61E0 /* en */,
+				D3F9B479169B7C62008E61E0 /* ar */,
+			);
+			name = ARLoginViewController.xib;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
