@@ -1,0 +1,10 @@
+/* 
+  MemberProfileStrings.strings
+  StrategyGame
+
+  Created by Artgin on 1/26/13.
+  Copyright (c) 2013 Artgine. All rights reserved.
+*/
+
+/* Title of the Member Page to display in the header */
+"Member_Profile_Page_Title" = "Member_Profile";
