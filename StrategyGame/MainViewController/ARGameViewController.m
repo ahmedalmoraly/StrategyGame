@@ -149,11 +149,14 @@
             child.view.transform = CGAffineTransformMakeTranslation(child.view.frame.size.width, 0);
             child.view.alpha = 0.5;
         }];
+        self.pageTitleLabel.alpha = 0;
         root.view.transform = CGAffineTransformIdentity;
         root.view.alpha = 1.0;
     } completion:^(BOOL finished)
     {
         [root endAppearanceTransition];
+        [self setPageTitle:root.title];
+        self.pageTitleLabel.alpha = 1;
         [self.childViewControllers enumerateObjectsUsingBlock:^(UIViewController *child, NSUInteger idx, BOOL *stop) {
             if (idx == 0) return;
             [child.view removeFromSuperview];
