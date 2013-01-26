@@ -11,6 +11,7 @@
 #import "DDPageControl.h"
 #import "ARLoginViewController.h"
 #import "MessagesViewController.h"
+#import "ARMemberProfileViewController.h"
 
 @interface ARGameMenuViewController ()<UIScrollViewDelegate>
 
@@ -60,8 +61,15 @@
     messages.title = NSLocalizedStringFromTable(@"Messages_Page_Title", @"GameMenuStrings", @"Messages_Page_Title");
     [(id)self.parentViewController pushViewController:messages animated:YES];
     
-    ARLoginViewController *login = [[ARLoginViewController alloc] initWithNibName:@"ARLoginViewController" bundle:nil];
+    //ARLoginViewController *login = [[ARLoginViewController alloc] initWithNibName:@"ARLoginViewController" bundle:nil];
     //[(id)self.parentViewController pushViewController:login animated:YES];
+}
+
+
+- (IBAction)hallOfWar:(id)sender
+{
+    ARMemberProfileViewController *memberProfile = [[ARMemberProfileViewController alloc] initWithNibName:@"ARMemberProfileViewController" bundle:nil];
+    [(id)self.parentViewController pushViewController:memberProfile animated:YES];
 }
 
 - (void)didReceiveMemoryWarning
