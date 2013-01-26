@@ -142,6 +142,11 @@
 		D3F9B46C169B7863008E61E0 /* GameMenuStrings.strings in Resources */ = {isa = PBXBuildFile; fileRef = D3F9B46E169B7863008E61E0 /* GameMenuStrings.strings */; };
 		D3F9B473169B79F3008E61E0 /* ARLoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D3F9B471169B79EF008E61E0 /* ARLoginViewController.m */; };
 		D3F9B476169B7C5C008E61E0 /* ARLoginViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D3F9B478169B7C5C008E61E0 /* ARLoginViewController.xib */; };
+		F784E9BD16B40BB80015E15A /* ARMemberProfileViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F784E9BB16B40BB80015E15A /* ARMemberProfileViewController.m */; };
+		F784E9BF16B40BC50015E15A /* ARMemberProfileViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F784E9C116B40BC50015E15A /* ARMemberProfileViewController.xib */; };
+		F784E9C516B4149C0015E15A /* MemberProfileStrings.strings in Resources */ = {isa = PBXBuildFile; fileRef = F784E9C716B4149C0015E15A /* MemberProfileStrings.strings */; };
+		F784E9CB16B41DB40015E15A /* InfinitePagingView.m in Sources */ = {isa = PBXBuildFile; fileRef = F784E9CA16B41DB40015E15A /* InfinitePagingView.m */; };
+		F784E9CE16B42B1C0015E15A /* SpyWarPopup.xib in Resources */ = {isa = PBXBuildFile; fileRef = F784E9CD16B42B1C0015E15A /* SpyWarPopup.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -338,6 +343,15 @@
 		D3F9B471169B79EF008E61E0 /* ARLoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ARLoginViewController.m; sourceTree = "<group>"; };
 		D3F9B477169B7C5C008E61E0 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ARLoginViewController.xib; sourceTree = "<group>"; };
 		D3F9B479169B7C62008E61E0 /* ar */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = ar; path = ar.lproj/ARLoginViewController.xib; sourceTree = "<group>"; };
+		F784E9BA16B40BB80015E15A /* ARMemberProfileViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ARMemberProfileViewController.h; path = MemberProfile/ARMemberProfileViewController.h; sourceTree = "<group>"; };
+		F784E9BB16B40BB80015E15A /* ARMemberProfileViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ARMemberProfileViewController.m; path = MemberProfile/ARMemberProfileViewController.m; sourceTree = "<group>"; };
+		F784E9C016B40BC50015E15A /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ARMemberProfileViewController.xib; sourceTree = "<group>"; };
+		F784E9C216B40BC90015E15A /* ar */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = ar; path = ar.lproj/ARMemberProfileViewController.xib; sourceTree = "<group>"; };
+		F784E9C616B4149C0015E15A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/MemberProfileStrings.strings; sourceTree = "<group>"; };
+		F784E9C816B4149D0015E15A /* ar */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ar; path = ar.lproj/MemberProfileStrings.strings; sourceTree = "<group>"; };
+		F784E9C916B41DB40015E15A /* InfinitePagingView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InfinitePagingView.h; sourceTree = "<group>"; };
+		F784E9CA16B41DB40015E15A /* InfinitePagingView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InfinitePagingView.m; sourceTree = "<group>"; };
+		F784E9CD16B42B1C0015E15A /* SpyWarPopup.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SpyWarPopup.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -412,6 +426,8 @@
 		D397B6D416975FA60017DAEC /* StrategyGame */ = {
 			isa = PBXGroup;
 			children = (
+				F784E9B916B40B7C0015E15A /* MemberProfile */,
+				F784E9B716B40AB10015E15A /* Technologies */,
 				D3F9B475169B7A08008E61E0 /* Login */,
 				D38A9F311698D61100121099 /* Messages */,
 				D397B88B169870DB0017DAEC /* GameMenu */,
@@ -614,6 +630,7 @@
 		D397B782169761A20017DAEC /* ThirdParties */ = {
 			isa = PBXGroup;
 			children = (
+				F784E9CC16B41DB90015E15A /* InfinitePagingView */,
 				D397B783169761A20017DAEC /* coredata-easyfetch-master */,
 				D397B788169761A20017DAEC /* DDPageControl */,
 				D397B78B169761A20017DAEC /* FTAnimations */,
@@ -825,6 +842,34 @@
 			path = LoginViewController;
 			sourceTree = "<group>";
 		};
+		F784E9B716B40AB10015E15A /* Technologies */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Technologies;
+			sourceTree = "<group>";
+		};
+		F784E9B916B40B7C0015E15A /* MemberProfile */ = {
+			isa = PBXGroup;
+			children = (
+				F784E9CD16B42B1C0015E15A /* SpyWarPopup.xib */,
+				F784E9BA16B40BB80015E15A /* ARMemberProfileViewController.h */,
+				F784E9BB16B40BB80015E15A /* ARMemberProfileViewController.m */,
+				F784E9C116B40BC50015E15A /* ARMemberProfileViewController.xib */,
+				F784E9C716B4149C0015E15A /* MemberProfileStrings.strings */,
+			);
+			name = MemberProfile;
+			sourceTree = "<group>";
+		};
+		F784E9CC16B41DB90015E15A /* InfinitePagingView */ = {
+			isa = PBXGroup;
+			children = (
+				F784E9C916B41DB40015E15A /* InfinitePagingView.h */,
+				F784E9CA16B41DB40015E15A /* InfinitePagingView.m */,
+			);
+			name = InfinitePagingView;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -975,6 +1020,9 @@
 				D38A9F471698D61100121099 /* RightMessageViewCell.xib in Resources */,
 				D3F9B46C169B7863008E61E0 /* GameMenuStrings.strings in Resources */,
 				D3F9B476169B7C5C008E61E0 /* ARLoginViewController.xib in Resources */,
+				F784E9BF16B40BC50015E15A /* ARMemberProfileViewController.xib in Resources */,
+				F784E9C516B4149C0015E15A /* MemberProfileStrings.strings in Resources */,
+				F784E9CE16B42B1C0015E15A /* SpyWarPopup.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1016,6 +1064,8 @@
 				D38A9F441698D61100121099 /* MessageViewCell.m in Sources */,
 				D38A9F451698D61100121099 /* MessageViewController.m in Sources */,
 				D3F9B473169B79F3008E61E0 /* ARLoginViewController.m in Sources */,
+				F784E9BD16B40BB80015E15A /* ARMemberProfileViewController.m in Sources */,
+				F784E9CB16B41DB40015E15A /* InfinitePagingView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1236,6 +1286,26 @@
 				D3F9B479169B7C62008E61E0 /* ar */,
 			);
 			name = ARLoginViewController.xib;
+			sourceTree = "<group>";
+		};
+		F784E9C116B40BC50015E15A /* ARMemberProfileViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F784E9C016B40BC50015E15A /* en */,
+				F784E9C216B40BC90015E15A /* ar */,
+			);
+			name = ARMemberProfileViewController.xib;
+			path = MemberProfile;
+			sourceTree = "<group>";
+		};
+		F784E9C716B4149C0015E15A /* MemberProfileStrings.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F784E9C616B4149C0015E15A /* en */,
+				F784E9C816B4149D0015E15A /* ar */,
+			);
+			name = MemberProfileStrings.strings;
+			path = MemberProfile;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
