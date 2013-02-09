@@ -157,6 +157,7 @@
         [root endAppearanceTransition];
         [self setPageTitle:root.title];
         self.pageTitleLabel.alpha = 1;
+        self.backHeaderButton.hidden = YES;
         [self.childViewControllers enumerateObjectsUsingBlock:^(UIViewController *child, NSUInteger idx, BOOL *stop) {
             if (idx == 0) return;
             [child.view removeFromSuperview];
