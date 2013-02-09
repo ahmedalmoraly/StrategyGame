@@ -102,7 +102,7 @@ typedef NS_ENUM(NSInteger, Move )
 -(UIControl *)dummyBackground
 {
     UIControl *back = [[UIControl alloc] initWithFrame:self.view.frame];
-    [back addTarget:self action:@selector(close:) forControlEvents:UIControlEventAllEvents];
+    [back addTarget:self action:@selector(close:) forControlEvents:UIControlEventTouchUpInside];
     back.tag = DUMMY_BACKGROUND_VIEW_TAG;
     return back;
 }
@@ -116,7 +116,7 @@ typedef NS_ENUM(NSInteger, Move )
     return _spywar;
 }
 
--(void)NextPrevious:(UIButton *)sender
+-(IBAction)NextPrevious:(UIButton *)sender
 {
     switch (sender.tag)
     {
