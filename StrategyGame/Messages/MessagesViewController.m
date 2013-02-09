@@ -29,6 +29,13 @@
     [self loadMessages];
 }
 
+-(void)viewWillDisappear:(BOOL)animated
+{
+    [super viewWillDisappear:animated];
+    
+    [ARAppDelegate saveScreenshotWithClassName:NSStringFromClass(self.class) context:nil];
+}
+
 -(void)loadMessages
 {
     NSDictionary *message = @{@"title" : @"Message title", @"sender" : @"Ahmad al-Moraly", @"date" : @"12/12/2012", @"body" : @"Message body message body message body message body message body message body message body", @"count" : @"3"};

@@ -8,6 +8,7 @@
 
 #import "ARGameViewController.h"
 #import "ARGameMenuViewController.h"
+#import "ARGameOptionsViewController.h"
 
 @interface ARGameViewController ()
 
@@ -96,6 +97,12 @@
     [self popToRootViewControllerAnimated:YES];
 }
 
+-(IBAction)options:(id)sender
+{
+    ARGameOptionsViewController *options = [[ARGameOptionsViewController alloc] initWithNibName:@"ARGameOptionsViewController" bundle:nil];
+    [self pushViewController:options animated:YES];
+}
+
 -(void)popViewController:(UIViewController *)controller animated:(BOOL)animated
 {
     if (self.childViewControllers.count == 1) return;
@@ -166,6 +173,7 @@
         }];
     }];
 }
+
 -(void)pushViewController:(UIViewController *)controller animated:(BOOL)animated
 {
     [controller willMoveToParentViewController:self];
@@ -207,6 +215,60 @@
         [self.containerView.subviews.lastObject setHidden:YES];
         [self.containerView addSubview:controller.view];
         [controller didMoveToParentViewController:self];
+    }
+    
+    [self setPageTitle:controller.title];
+    self.backHeaderButton.hidden = NO;
+}
+
+-(void)pushViewController:(UIViewController *)controller animated:(BOOL)animated completion:(void (^)())completionHandler
+{
+    
+    [controller willMoveToParentViewController:self];
+    
+    if (animated)
+    {
+        self.view.userInteractionEnabled = NO;
+        UIView* lastView = self.containerView.subviews.lastObject;
+        controller.view.alpha = 0.5;
+        [self addChildViewController:controller];
+        [controller beginAppearanceTransition:YES animated:YES];
+        [self.containerView addSubview:controller.view];
+        controller.view.frame = self.containerView.bounds;
+        controller.view.transform = CGAffineTransformMakeTranslation(controller.view.frame.size.width, 0);
+        
+        [UIView transitionWithView:self.containerView duration:0.25 options:UIViewAnimationOptionCurveEaseIn animations:^
+         {
+             self.pageTitleLabel.alpha = 0;
+             lastView.transform = CGAffineTransformMakeTranslation(-lastView.frame.size.width-20, 0);
+             controller.view.alpha = 1;
+             
+             lastView.alpha = 0.5;
+             controller.view.transform = CGAffineTransformIdentity;
+             self.pageTitleLabel.alpha = 1;
+             
+         } completion:^(BOOL finished) {
+             [controller endAppearanceTransition];
+             [controller didMoveToParentViewController:self];
+             self.view.userInteractionEnabled = YES;
+             if (completionHandler) {
+                 completionHandler();
+             }
+         }];
+        
+        
+    }
+    else
+    {
+        [self addChildViewController:controller];
+        [controller beginAppearanceTransition:YES animated:NO];
+        controller.view.frame = self.containerView.bounds;
+        [self.containerView.subviews.lastObject setHidden:YES];
+        [self.containerView addSubview:controller.view];
+        [controller didMoveToParentViewController:self];
+        if (completionHandler) {
+            completionHandler();
+        }
     }
     
     [self setPageTitle:controller.title];

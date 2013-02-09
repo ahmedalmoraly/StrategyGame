@@ -38,6 +38,13 @@
     // Do any additional setup after loading the view from its nib.
 }
 
+-(void)viewWillDisappear:(BOOL)animated
+{
+    [super viewWillDisappear:animated];
+    
+    [ARAppDelegate saveScreenshotWithClassName:NSStringFromClass(self.class) context:nil];
+}
+
 - (void)didReceiveMemoryWarning
 {
     [super didReceiveMemoryWarning];

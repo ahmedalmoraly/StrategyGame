@@ -24,3 +24,6 @@ blue:((float)(rgbValue & 0x0000FF))/255.0 \
 alpha:1.0]
 
 #define IS_ARABIC [[[NSUserDefaults standardUserDefaults] objectForKey:@"AppleLanguages"][0] isEqualToString:@"ar"]
+#import "CoreData+MagicalRecord.h"
+#import "Bookmark.h"
+#import "ARAppDelegate.h"

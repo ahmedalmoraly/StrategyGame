@@ -20,5 +20,6 @@
 -(void)setHomeButtonHidden:(BOOL)hidden;
 
 -(void)pushViewController:(UIViewController *)controller animated:(BOOL)animated;
+-(void)pushViewController:(UIViewController *)controller animated:(BOOL)animated completion:(void(^)())completion;
 
 @end

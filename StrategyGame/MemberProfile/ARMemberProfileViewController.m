@@ -80,6 +80,13 @@ typedef NS_ENUM(NSInteger, Move )
 
 }
 
+-(void)viewWillDisappear:(BOOL)animated
+{
+    [super viewWillDisappear:animated];
+    
+    [ARAppDelegate saveScreenshotWithClassName:NSStringFromClass(self.class) context:nil];
+}
+
 -(void)show:(UIButton *)sender
 {
     //NSInteger castleIndex = sender.tag;
