@@ -15,12 +15,4 @@
 @synthesize colIndex;
 @synthesize view;
 
-- (void) addSubview:(UIView *)v
-{
-	[super addSubview:v];
-	v.exclusiveTouch = NO;
-	v.userInteractionEnabled = NO;
-}
-
-
 @end

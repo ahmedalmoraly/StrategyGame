@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BCDF71A116C668B80063D2BB /* ARTechnologiesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BCDF719F16C668B80063D2BB /* ARTechnologiesViewController.m */; };
+		BCDF71A216C668B80063D2BB /* ARTechnologiesViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BCDF71A016C668B80063D2BB /* ARTechnologiesViewController.xib */; };
+		BCDF71AD16C66E060063D2BB /* ARTechnologyCell.m in Sources */ = {isa = PBXBuildFile; fileRef = BCDF71AC16C66E050063D2BB /* ARTechnologyCell.m */; };
+		BCDF71AF16C66E210063D2BB /* ARTechnologyCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = BCDF71AE16C66E210063D2BB /* ARTechnologyCell.xib */; };
 		D38A9F3F1698D61100121099 /* LeftMessageViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = D38A9F321698D61100121099 /* LeftMessageViewCell.xib */; };
 		D38A9F401698D61100121099 /* MessagesCell.m in Sources */ = {isa = PBXBuildFile; fileRef = D38A9F341698D61100121099 /* MessagesCell.m */; };
 		D38A9F411698D61100121099 /* MessagesCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = D38A9F351698D61100121099 /* MessagesCell.xib */; };
@@ -150,6 +154,12 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		BCDF719E16C668B80063D2BB /* ARTechnologiesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ARTechnologiesViewController.h; path = Technologies/ARTechnologiesViewController.h; sourceTree = "<group>"; };
+		BCDF719F16C668B80063D2BB /* ARTechnologiesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ARTechnologiesViewController.m; path = Technologies/ARTechnologiesViewController.m; sourceTree = "<group>"; };
+		BCDF71A016C668B80063D2BB /* ARTechnologiesViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = ARTechnologiesViewController.xib; path = Technologies/ARTechnologiesViewController.xib; sourceTree = "<group>"; };
+		BCDF71AB16C66E050063D2BB /* ARTechnologyCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ARTechnologyCell.h; path = Technologies/ARTechnologyCell.h; sourceTree = "<group>"; };
+		BCDF71AC16C66E050063D2BB /* ARTechnologyCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ARTechnologyCell.m; path = Technologies/ARTechnologyCell.m; sourceTree = "<group>"; };
+		BCDF71AE16C66E210063D2BB /* ARTechnologyCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ARTechnologyCell.xib; sourceTree = "<group>"; };
 		D33A78C2169CD11C0005C468 /* en */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = en; path = en.lproj/password_txt.png; sourceTree = "<group>"; };
 		D38A9F321698D61100121099 /* LeftMessageViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LeftMessageViewCell.xib; sourceTree = "<group>"; };
 		D38A9F331698D61100121099 /* MessagesCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MessagesCell.h; sourceTree = "<group>"; };
@@ -845,6 +855,12 @@
 		F784E9B716B40AB10015E15A /* Technologies */ = {
 			isa = PBXGroup;
 			children = (
+				BCDF719E16C668B80063D2BB /* ARTechnologiesViewController.h */,
+				BCDF719F16C668B80063D2BB /* ARTechnologiesViewController.m */,
+				BCDF71A016C668B80063D2BB /* ARTechnologiesViewController.xib */,
+				BCDF71AB16C66E050063D2BB /* ARTechnologyCell.h */,
+				BCDF71AC16C66E050063D2BB /* ARTechnologyCell.m */,
+				BCDF71AE16C66E210063D2BB /* ARTechnologyCell.xib */,
 			);
 			name = Technologies;
 			sourceTree = "<group>";
@@ -1023,6 +1039,8 @@
 				F784E9BF16B40BC50015E15A /* ARMemberProfileViewController.xib in Resources */,
 				F784E9C516B4149C0015E15A /* MemberProfileStrings.strings in Resources */,
 				F784E9CE16B42B1C0015E15A /* SpyWarPopup.xib in Resources */,
+				BCDF71A216C668B80063D2BB /* ARTechnologiesViewController.xib in Resources */,
+				BCDF71AF16C66E210063D2BB /* ARTechnologyCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1066,6 +1084,8 @@
 				D3F9B473169B79F3008E61E0 /* ARLoginViewController.m in Sources */,
 				F784E9BD16B40BB80015E15A /* ARMemberProfileViewController.m in Sources */,
 				F784E9CB16B41DB40015E15A /* InfinitePagingView.m in Sources */,
+				BCDF71A116C668B80063D2BB /* ARTechnologiesViewController.m in Sources */,
+				BCDF71AD16C66E060063D2BB /* ARTechnologyCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
