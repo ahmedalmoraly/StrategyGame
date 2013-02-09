@@ -2,7 +2,7 @@
 //  ARMemberProfileViewController.m
 //  StrategyGame
 //
-//  Created by Artgin on 1/26/13.
+//  Created by Ahmad Al-Moraly on 1/26/13.
 //  Copyright (c) 2013 Artgine. All rights reserved.
 //
 
